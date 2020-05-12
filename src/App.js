@@ -1,24 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+// import HalloWorld from './Component/HalloWorld'
+// import FuncComponent from './Component/FuncComponent'
+// import ClassComponent from './Component/ClassComponent';
+// import JsxComponent from './Component/JsxComponent'
+// import PropsIntro from './Component/PropsIntro';
+// import StateIntro from './Component/StateIntro';
+// import SetStateIntro from './Component/setStateIntro';
+// import DestructuringProps from './Component/DestructuringProps';
+// import FunctionClick from './Component/FunctionClick';
+// import BindEvnHendl from './Component/BindEvnHendl';
+import Parent from './Component/Parent';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <HalloWorld /> */}
+      {/* <FuncComponent />*/}
+      {/* <ClassComponent /> */}
+      {/* <JsxComponent/> */}
+      {/* <PropsIntro name="ade" /> */}
+      {/* <StateIntro/> */}
+      {/* <SetStateIntro /> */}
+      {/* <DestructuringProps name="ade" age="18" /> */}
+      {/* <FunctionClick /> */}
+      {/* <BindEvnHendl say="hallo" /> */}
+      <Parent/>
     </div>
   );
 }
