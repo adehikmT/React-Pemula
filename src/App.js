@@ -11,7 +11,10 @@ import './App.css';
 // import DestructuringProps from './Component/DestructuringProps';
 // import FunctionClick from './Component/FunctionClick';
 // import BindEvnHendl from './Component/BindEvnHendl';
-import Parent from './Component/Parent';
+// import Parent from './Component/Parent';
+// import Conditions from './Component/Conditions'
+// import Person from './Component/ListRender/Person';
+import List from './Component/IndexAsKey/List';
 
 
 function App() {
@@ -27,7 +30,10 @@ function App() {
       {/* <DestructuringProps name="ade" age="18" /> */}
       {/* <FunctionClick /> */}
       {/* <BindEvnHendl say="hallo" /> */}
-      <Parent/>
+      {/* <Parent/> */}
+      {/* <Conditions/> */}
+      {/* <Person/> */}
+      <List/>
     </div>
   );
 }
