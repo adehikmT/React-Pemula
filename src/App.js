@@ -1,6 +1,7 @@
 import React from 'react';
 // import logo from './logo.svg';
 import './App.css';
+import BasicForm from './Component/Form/BasicForm';
 // import HalloWorld from './Component/HalloWorld'
 // import FuncComponent from './Component/FuncComponent'
 // import ClassComponent from './Component/ClassComponent';
@@ -14,7 +15,9 @@ import './App.css';
 // import Parent from './Component/Parent';
 // import Conditions from './Component/Conditions'
 // import Person from './Component/ListRender/Person';
-import List from './Component/IndexAsKey/List';
+// import List from './Component/IndexAsKey/List';
+// import StyleSheet from './Component/Styleing/Inline'
+
 
 
 function App() {
@@ -33,7 +36,9 @@ function App() {
       {/* <Parent/> */}
       {/* <Conditions/> */}
       {/* <Person/> */}
-      <List/>
+      {/* <List/> */}
+      {/* <StyleSheet/> */}
+      <BasicForm/>
     </div>
   );
 }

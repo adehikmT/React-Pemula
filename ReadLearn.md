@@ -24,3 +24,6 @@
 12. Conditions.jsx
 13. ListRender {Person.jsx and ShowPerson.jsx} 
 14. Key As Index {List.jsx}
+
+## Props
+bisa berbentuk data , list , array , object dan function
